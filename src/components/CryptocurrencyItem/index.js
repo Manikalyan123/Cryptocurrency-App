@@ -3,6 +3,7 @@ import './index.css'
 const CryptocurrencyItem = props => {
   const {each} = props
   const {currencyLogoUrl, currencyName, usdValue, euroValue} = each
+
   return (
     <li className="cryptocurrency-item">
       <div className="logo-and-title-container">
@@ -20,4 +21,5 @@ const CryptocurrencyItem = props => {
     </li>
   )
 }
+
 export default CryptocurrencyItem
